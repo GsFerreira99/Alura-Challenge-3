@@ -1,0 +1,52 @@
+.conteudo {
+    height: 100vh;
+}
+
+.banner {
+    height: calc(192px - 1rem);
+    background: url(../img/banner-image.png) center / contain no-repeat;
+
+
+    display: flex;
+    flex-direction: column;
+    color: var(--branco-fundo);
+    font-family: var(--raleway);
+    font-weight: 700;
+    padding: 1rem;
+
+}
+
+.banner__titulo {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+.banner__texto {
+    font-size: .9rem;
+}
+
+.banner__botao {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco-fundo);
+    background-color: var(--azul-padrão);
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.banner__botao:hover {
+    background-color: var(--azul-hover);
+}
+
+.banner .item {
+    margin-bottom: .6rem;
+}
+
+.banner .item:last-child {
+    margin-bottom: 0;
+}

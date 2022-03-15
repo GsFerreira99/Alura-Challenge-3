@@ -39,6 +39,7 @@
 
 .cabecalho__pesquisa--input {
     display: none;
+    outline: none;
 }
 
 
@@ -58,6 +59,7 @@
         color: var(--cinza-escuro);
         font-family: var(--raleway);
         font-weight: 400;
+
     }
     
     .cabecalho {
@@ -91,7 +93,7 @@
     }
 
     .cabecalho {
-        padding: 0 7rem;
+        padding: 0 9.5rem;
     }
 
     .cabecalho__login {

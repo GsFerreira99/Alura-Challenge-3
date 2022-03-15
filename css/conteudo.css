@@ -1,7 +1,3 @@
-.conteudo {
-    height: 100%;
-}
-
 .banner {
     height: calc(192px - 1rem);
     background: url(../img/banner-image.png) center / cover no-repeat;

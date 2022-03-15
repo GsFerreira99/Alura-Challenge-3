@@ -7,10 +7,14 @@
     --azul-claro-hover: #D4E4FA;
     --azul-background: #EAF2FD;
     --preto-texto: #464646;
+    --cinza-bg: #E5E5E5;
 
     --raleway: 'Raleway', sans-serif;
 }
 
+.conteudo {
+    height: 100%;
+}
 
 
 

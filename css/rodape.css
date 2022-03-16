@@ -5,7 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    padding: 16px;
+    padding: 1rem;
 }
 
 .rodape__logo {
@@ -87,19 +87,21 @@
 
 .rodape__desenvolvido {
     padding: 2rem 3rem;
+    height: auto;
 
     font-family: var(--raleway);
     font-weight: 500;
     color: var(--preto-texto);
 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape__form--botao:hover {
     background-color: var(--azul-hover);
-} 
-
-
+}
 
 @media screen and (min-width: 540px) {
     .rodape__info {
@@ -137,7 +139,8 @@
         align-items: flex-start;
         justify-content: space-between;
         height: calc(364px - 8rem);
-        padding: 4rem 5%;
+        padding: 4rem 9.5rem;
+        height: 100%;
     }
 
     .rodape_item {
@@ -149,11 +152,11 @@
     }
 
     .rodape__form {
-        width: 47%;
+        width: 40%;
     }
 
     .rodape__detalhes  {
-        width: 22%;
+        width: 29%;
         align-items: baseline;
     }
 
@@ -164,4 +167,5 @@
     .rodape__detalhes--item {
         margin-bottom: 1.5rem;
     }
+
 }
